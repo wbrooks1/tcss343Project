@@ -1,0 +1,120 @@
+Input size:100
+Recursive time:	110796575ns
+Minimum Path recursive is:
+0->74->99
+Cost:9
+Dynamic time:	41974136ns
+Dynamic path:
+0->74->99
+Cost:9
+--------------------------------------
+Input size:100
+Recursive time:	106123494ns
+Minimum Path recursive is:
+0->1->45->99
+Cost:6
+Dynamic time:	39355255ns
+Dynamic path:
+0->1->45->99
+Cost:6
+--------------------------------------
+Input size:100
+Recursive time:	142395607ns
+Minimum Path recursive is:
+0->43->99
+Cost:2
+Dynamic time:	43790641ns
+Dynamic path:
+0->43->99
+Cost:2
+--------------------------------------
+Input size:200
+Recursive time:	488430469ns
+Minimum Path recursive is:
+0->83->199
+Cost:4
+Dynamic time:	16998780ns
+Dynamic path:
+0->83->199
+Cost:4
+--------------------------------------
+Input size:200
+Recursive time:	310922266ns
+Minimum Path recursive is:
+0->199
+Cost:4
+Dynamic time:	13728606ns
+Dynamic path:
+0->199
+Cost:4
+--------------------------------------
+Input size:200
+Recursive time:	458376785ns
+Minimum Path recursive is:
+0->154->172->199
+Cost:3
+Dynamic time:	19206003ns
+Dynamic path:
+0->154->172->199
+Cost:3
+--------------------------------------
+Input size:400
+Recursive time:	977514732ns
+Minimum Path recursive is:
+0->84->133->399
+Cost:4
+Dynamic time:	90661754ns
+Dynamic path:
+0->84->133->399
+Cost:4
+--------------------------------------
+Input size:400
+Recursive time:	881805924ns
+Minimum Path recursive is:
+0->87->399
+Cost:3
+Dynamic time:	90121716ns
+Dynamic path:
+0->87->399
+Cost:3
+--------------------------------------
+Input size:400
+Recursive time:	894522950ns
+Minimum Path recursive is:
+0->10->399
+Cost:4
+Dynamic time:	79721578ns
+Dynamic path:
+0->10->399
+Cost:4
+--------------------------------------
+Input size:800
+Recursive time:	7944163830ns
+Minimum Path recursive is:
+0->7->248->485->799
+Cost:4
+Dynamic time:	1258954849ns
+Dynamic path:
+0->151->176->799
+Cost:4
+--------------------------------------
+Input size:800
+Recursive time:	7586364129ns
+Minimum Path recursive is:
+0->17->59->799
+Cost:3
+Dynamic time:	1284594546ns
+Dynamic path:
+0->17->59->799
+Cost:3
+--------------------------------------
+Input size:800
+Recursive time:	7462854397ns
+Minimum Path recursive is:
+0->290->799
+Cost:2
+Dynamic time:	1320906721ns
+Dynamic path:
+0->290->799
+Cost:2
+--------------------------------------
