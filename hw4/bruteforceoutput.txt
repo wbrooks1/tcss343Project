@@ -1,0 +1,42 @@
+Input size:4
+Brute force took:943249ns
+Minimum Path Bruteforce is:
+0->3
+Cost:11
+Recursive time:	73204ns
+Minimum Path recursive is:
+0->3
+Cost:11
+Dynamic time:	165834ns
+Dynamic path:
+0->3
+Cost:11
+--------------------------------------
+Input size:8
+Brute force took:10413812ns
+Minimum Path Bruteforce is:
+0->7
+Cost:13
+Recursive time:	89647ns
+Minimum Path recursive is:
+0->7
+Cost:13
+Dynamic time:	33176ns
+Dynamic path:
+0->7
+Cost:13
+--------------------------------------
+Input size:16
+Brute force took:28011731632ns
+Minimum Path Bruteforce is:
+0->15
+Cost:27
+Recursive time:	1025337ns
+Minimum Path recursive is:
+0->3->5->15
+Cost:27
+Dynamic time:	135825ns
+Dynamic path:
+0->15
+Cost:27
+--------------------------------------
