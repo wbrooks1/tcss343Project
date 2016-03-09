@@ -1,4 +1,3 @@
-package hw4;
 
 	import java.io.BufferedWriter;
 	import java.io.FileWriter;
@@ -244,14 +243,18 @@ package hw4;
 				Scanner scan = new Scanner(System.in);
 				String line = null;
 				for(i = 0; i < size*size; i++){
+
 					if((line = scan.next())!= null){
-						inputs[i] = line;					
+						inputs[i] = line;	
 					}
+
 				}
 				for(i=0; i <size; i++){
 					for(j=0; j < size; j++){
+
 						if(!inputs[k].equals("NA")){
 							contents[i][j] = Integer.parseInt(inputs[k]);
+
 						}
 						k++;
 					}
@@ -445,11 +448,14 @@ package hw4;
 		}
 		public static void main(String[] theArgs) throws IOException{
 		//	int [][] input = {{0,2, 3, 7},{0,0,2,4},{0,0,0,2},{0, 0, 0,0}};
-			int size = 800;
+			int size = 8;
 			Graph myGraph = new Graph();
 			Graph.createFileInput(size, size+"_input.txt");
+
 			int [][] testInput = myGraph.buildCostArrayFromFile(size);
+
 			myGraph.addInputArray(testInput);
+			
 
 			long bruteStart =  System.nanoTime();
 		//	Path tempPath = myGraph.getMinimumPathBruteForce();
@@ -460,7 +466,7 @@ package hw4;
 			Path recPath =myGraph.getMinimumPathRecursive();
 			long recEnd = System.nanoTime();
 			long recRunTime = recEnd - recStart;
-			
+
 			myGraph.resetDistances();
 			long dyStart = System.nanoTime();
 			Path dynamic = myGraph.getMinPathDynamicProgramming();
